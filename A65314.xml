@@ -1,0 +1,600 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A copy book enriched with great variety of the most useful and modish hands adorned with a whole alphabet of great letters ... / by Thomas Watson ...</title>
+            <author>Watson, Thomas, 17th/18th cent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1680</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65314</idno>
+            <idno type="STC">Wing W1147A</idno>
+            <idno type="STC">ESTC R236185</idno>
+            <idno type="EEBO-CITATION">12145014</idno>
+            <idno type="OCLC">ocm 12145014</idno>
+            <idno type="VID">54927</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65314)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 54927)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 905:34)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A copy book enriched with great variety of the most useful and modish hands adorned with a whole alphabet of great letters ... / by Thomas Watson ...</title>
+                  <author>Watson, Thomas, 17th/18th cent.</author>
+               </titleStmt>
+               <extent>[26] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>Printed for Nathanieil Ponder ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>[1683?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Calligraphy --  Early works to 1800.</term>
+               <term>Copybooks.</term>
+               <term>Writing books</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:54927:1"/>
+            <pb facs="tcp:54927:1"/>
+            <p>A COPY BOOK Enriched with great Variety Of the moſt Uſeful and Modiſh Hands.</p>
+            <p>ADORNED <hi>With a whole Alphabet of Great Letters</hi> (One before every Example.)</p>
+            <p>Compoſed of divers New-deviſed KNOTS, and beautified with many other curious Shapes and Flouriſhes.</p>
+            <p>Fitted for the PROFIT and DELIGHT of <hi>INGENIO<g ref="char:V">Ʋ</g>S YO<g ref="char:V">Ʋ</g>TH.</hi>
+            </p>
+            <p>
+               <hi>By</hi> Thomas Watſon, <hi>Teacher of a Writing-School in</hi> Newport-Pagnell <hi>in the County of</hi> Bucks.</p>
+            <p>Note, <hi>That to the ſeveral ſorts of Hands in this Book, there is a Compleat Alphabet peradventure not heretofore practiſed in any other Copy-Book</hi>
+            </p>
+         </div>
+         <div type="engraved_title_page">
+            <pb facs="tcp:54927:2"/>
+            <pb facs="tcp:54927:2"/>
+            <p>
+               <figure>
+                  <p>A COPY BOOK <hi>Enriched with Great Variety</hi> Of the most <g ref="char:V">Ʋ</g>sefull &amp; Modish Hands ADORNED, With a whole Alphabet of Great Letters, (One before every Exam<g ref="char:EOLhyphen"/>ple), Composed of divers New devised Knots, and beautified with many other Curious Shapes &amp; Florishes Fitted for the Profit and Delight of Ingenious Youth BY THOMAS WATSON Teacher of a Writing School at Newport Pagnell in the County of Bucks</p>
+                  <p>London printed for NATHANIEIL PONDER at the Peacock in y<hi rend="sup">e</hi> Poultry</p>
+                  <byline>Sturt. Sculp</byline>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div n="A" type="letter">
+            <pb facs="tcp:54927:3"/>
+            <pb facs="tcp:54927:3"/>
+            <figure>
+               <head>A</head>
+               <p>A A</p>
+               <figDesc>depiction of an ornate letter 'A'</figDesc>
+               <byline>Watson fecit.</byline>
+            </figure>
+            <figure>
+               <p>NPonder in the Poultry</p>
+               <figDesc>depiction of a peacock (the sign of Nathaniel Ponder's printing shop</figDesc>
+            </figure>
+            <p>
+               <add>ss. vv. xx.</add>
+            </p>
+            <p>aa. bb. bb. cc cc. dd. dd. d d d d. dd. f.f.f.f. g.g. hh. ik.ik. l.ll. mm. nn. o oo. p p. q q. rr rr. ſs ſs. t tt. vv.</p>
+            <p>vv. xx. yy. y yy. zz &amp;</p>
+            <p>A A B C D E F G H J K L M M N O P Q R S S T V <g ref="char:V">Ʋ</g> W X X Y Z</p>
+         </div>
+         <div n="B" type="letter">
+            <pb facs="tcp:54927:4"/>
+            <pb facs="tcp:54927:4"/>
+            <figure>
+               <head>B</head>
+               <p>B B</p>
+               <figDesc>depiction of an ornate letter 'B'</figDesc>
+            </figure>
+            <p>
+               <hi>Begin not any thing</hi> before good Adviſement and mature con<g ref="char:EOLhyphen"/>sideration but when thou haſt oute begun be carefull speedily to dispatch it; and remember that small faults if not timely prevented in y<hi rend="sup">e</hi> beginning will prove great errors in the end</p>
+            <figure>
+               <figDesc>depiction of a fish</figDesc>
+            </figure>
+            <p>Bee it knowne unto all men by theſe preſents that I Daniel Manwaring of Limmington in the County of Sommerton Yeoman am holden and firmly bound unto Nathanael Hammond Citizen and Jronmounger of London in y<hi rend="sup">e</hi> Sum of One Thousand Six hundred ninety four pounds</p>
+         </div>
+         <div n="C" type="letter">
+            <pb facs="tcp:54927:5"/>
+            <pb facs="tcp:54927:5"/>
+            <figure>
+               <head>C</head>
+               <p>
+                  <hi>Conſider</hi> the shortneſe of Life: and the certainty of judg<g ref="char:EOLhyphen"/>ment; the great reward of the good, and severe punish<g ref="char:EOLhyphen"/>ment of the wicked: there<g ref="char:EOLhyphen"/>fore make <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>en with Hea<g ref="char:EOLhyphen"/>ven by repentance at the end of every day and so you shall haue but one day to repent of be<g ref="char:EOLhyphen"/>fore <abbr>yo:</abbr> death</p>
+               <figDesc>depiction of an ornate letter 'C'</figDesc>
+            </figure>
+            <p>Aambm bm cm cm dm dm em fm fm gm hm ilmlmllmn om pm pm qm rmrm ſsm smtmn vm vm xymyz</p>
+            <p>A B C D E F G H J K L M M N N O P Q R S T V W X Y Z</p>
+            <p>Converse only with such Persons by whome you may best accomplish your selfe for Vertue never returnes with so with a Cargo as when it sets saile from such Continents; Company being like severall Climates which oftentimes changes young travellers complexi<g ref="char:EOLhyphen"/>ons</p>
+            <pb facs="tcp:54927:6"/>
+         </div>
+         <div n="D" type="letter">
+            <pb facs="tcp:54927:6"/>
+            <figure>
+               <head>D</head>
+               <p>D D</p>
+               <figDesc>depiction of an ornate letter 'D'</figDesc>
+            </figure>
+            <p>
+               <hi>Deus</hi> est Splendor nunquam deficiens Vita indefessa non moriens, fons semper staturiens seminale vita, seminarium sapientia, Principale Principium, initiale Bonitatis initium.</p>
+            <figure>
+               <figDesc>five figures composed of calligraphic flourishes which encompass the text</figDesc>
+               <figure>
+                  <figDesc>fanciful winged figure composed of calligraphic flourishes</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>peacock composed of calligraphic flourishes</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>peacock composed of calligraphic flourishes</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>small animal composed of calligraphic flourishes</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>small animal composed of calligraphic flourishes</figDesc>
+               </figure>
+               <p>
+                  <hi>Diſſimulation</hi> is an evill humour of the Mind contrary to all honeſtie and huma<g ref="char:EOLhyphen"/>nitie it is a countenance: evermore disa<g ref="char:EOLhyphen"/>greeing from the imagination of y<hi rend="sup">e</hi> heart and a moſt notorious lyer in whatsoever it propoundeth.</p>
+            </figure>
+            <p>Diligence alone is a commendable qualifi<g ref="char:EOLhyphen"/>cation, and industry a substantiall durable fortune. Idleneſs is the spawne of Lust, and waſte<g ref="char:punc">▪</g> a man as insensibly as Diligence doth improue him.</p>
+         </div>
+         <div n="E" type="letter">
+            <pb facs="tcp:54927:7"/>
+            <pb facs="tcp:54927:7"/>
+            <figure>
+               <head>E</head>
+               <p>E E</p>
+               <figDesc>depiction of an ornate letter 'E'</figDesc>
+            </figure>
+            <p>A A B C D E F G H J K L M N O P Q R S T V W X Y Z Z</p>
+            <p>
+               <seg rend="decorInit">E</seg>xternall Fortunes may befall moſt unworthy Perſons but a mans owne ſolid worth is that which will gaine him true titles of Honour and an everlaſting Fame.</p>
+            <p>A a a b b c c d d d d e e e e f f f f g g g h h h i ij k k l ll mm o o o p p q q r r ſs ſs ſt tt vv u u w w x y z z</p>
+         </div>
+         <div n="F" type="letter">
+            <pb facs="tcp:54927:8"/>
+            <pb facs="tcp:54927:8"/>
+            <figure>
+               <head>F</head>
+               <p>F F</p>
+               <figDesc>depiction of an ornate letter 'F'</figDesc>
+            </figure>
+            <p>Friendſhip is a ſacred thing and deſerves our deareſt acknowledgments: a Friend is a great comfort in ſolitude, and a moſt excellent Aſſiſtant in buiſneſs.</p>
+            <p>Favorinus interrogatus qua ratione potiſſimum quis aſſequi poſset ut apud homines honeſtam haberet Famam? Si loquatur inquit qua sunt Optima et faciat qua sunt honeſtis<g ref="char:EOLhyphen"/>sima Quid diu poterat brevius ac rurſus quid absolutius ſi quidem futis parla gloria.</p>
+         </div>
+         <div n="G" type="letter">
+            <pb facs="tcp:54927:9"/>
+            <pb facs="tcp:54927:9"/>
+            <figure>
+               <head>G</head>
+               <figDesc>depiction of an ornate letter 'G'</figDesc>
+               <p>
+                  <figure>
+                     <figDesc>depiction of a pen-bearing, horn-blowing man composed of calligraphic flourishes</figDesc>
+                  </figure>
+               </p>
+            </figure>
+            <p>A A A B B C D D E F G H H I J K L M M N N O P Q R R S T T V <g ref="char:V">Ʋ</g> W X X Y Z.</p>
+            <p>a a a b b b c c c d d d d eee ee ff ff f f f f g g g h h h i ij i k k k l ll ll mmmnnn o oo p p p p q q q r r r ſs ſs ſs t tt tt v v u u u v v v w w w x x x y y y z z z &amp;</p>
+            <q>
+               <l>God makes the Pen his Herauld to proclaime</l>
+               <l>The splendid Glories of his Workes and Fame</l>
+               <l>Heavens sacred Oracles the life of Mens</l>
+               <l>Jmmortall Souls by the conserve of Pens</l>
+               <l>Haue bin from old Times infancy kept pure</l>
+               <l>And shall to round Eternity endure</l>
+            </q>
+         </div>
+         <div n="H" type="letter">
+            <pb facs="tcp:54927:10"/>
+            <pb facs="tcp:54927:10"/>
+            <p>
+               <figure>
+                  <head>H</head>
+                  <p>H H</p>
+                  <figDesc>depiction of an ornate letter 'H'</figDesc>
+               </figure>
+            </p>
+            <q>
+               <l>Honours may leave their Owners Riches may</l>
+               <l>Assume swift wings and quickly fly away</l>
+               <l>Pleasure like lightning but salutes our Eyes</l>
+               <l>With one bright Flash and then falls sick &amp; dyes</l>
+               <l>But Learning and the knowledge of rare Arts</l>
+               <l>That Man the moſt enjoyes that most imparts</l>
+               <l>Endeavour therefore that your Breaſt &amp; Brain</l>
+               <l>The best of Learnings Treasures may retain</l>
+            </q>
+            <p>Humilitie is a voluntary inclination of the Mind groun<g ref="char:EOLunhyphen"/>ded upon a perfect Knowledge of our own Condition A vertue by which a Man in the moſt true consideration of his inward Qualities maketh leaſt Account of Himself</p>
+            <pb facs="tcp:54927:11"/>
+         </div>
+         <div n="I J" type="letter">
+            <pb facs="tcp:54927:11"/>
+            <p>
+               <figure>
+                  <head>J</head>
+                  <figDesc>depiction of an ornate letter 'I'</figDesc>
+                  <q>
+                     <l>Jn times of Prosperity Friends they are plenty</l>
+                     <l>But in Adversity not One among Twenty</l>
+                  </q>
+               </figure>
+            </p>
+            <p>It is a memorable passage of Queen Eli<g ref="char:EOLhyphen"/>zabeth whome Bishop Gardiner in her Sisters Reigne designed to put to death being asked the meaning of these words This is my Body whether she thought that was Christs body or no after a little pauze is reported to haue returned this Answer</p>
+            <q>
+               <l>Christ was the Word that spake it</l>
+               <l>He tooke the Bread and brake it</l>
+               <l>And what the Word did make it</l>
+               <l>That J belieue and take it</l>
+            </q>
+         </div>
+         <div n="K" type="letter">
+            <pb facs="tcp:54927:12"/>
+            <pb facs="tcp:54927:12"/>
+            <figure>
+               <head>K</head>
+               <p>K</p>
+               <p>
+                  <figure>
+                     <figDesc>depiction of a bear standing on its hind legs composed of calligraphic flourishes</figDesc>
+                     <byline>Elder sculp</byline>
+                  </figure>
+               </p>
+            </figure>
+            <p>Aabcdeffghikllmnoppqrrſs t tt v uwxxyyz&amp;</p>
+            <p>A A B C E F G H J K L L M M N O P Q R S T V V W W X YY Z</p>
+            <p>Knowledge and Learning was eſteemed of so much vallue by Alexander the great that he <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> himselfe to be more indebted <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap>ing him Learning then to his Father <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <q>
+               <l>Knowledge imploy'd improves the ingenious mind</l>
+               <l>And Learnings beames illuminate the blind</l>
+            </q>
+         </div>
+         <div n="L" type="letter">
+            <pb facs="tcp:54927:13"/>
+            <pb facs="tcp:54927:13"/>
+            <figure>
+               <head>L</head>
+               <figDesc>depiction of an ornate letter 'L'</figDesc>
+            </figure>
+            <p>A a a b b c c d d e ef f g g h h i k i k l ll m m n n o o o p p q q r r ſs ſs t tt v u w w x x y y z z</p>
+            <p>A B C D E E F ff G H J K K LL M N N O P P Q R R S T T V <g ref="char:V">Ʋ</g> W W X Y Z</p>
+            <p>A a b c ef f g h i k l ll m n o p q rr ſs t tt u v w w x y y z</p>
+            <p>Let it be your Ambition to be wise and your Wisdome to be good Reject Opinion and You are like a Ship rideing at Anchor in a safe Harbour</p>
+            <p>Learning is the temperance of Youth and the Comfort of old Age ſtanding for wealth to Men in poverty and ſerving for an Ornament to Riches</p>
+            <p>Luxuria, est immoderata Carnis Petulantia, dulce <g ref="char:V">Ʋ</g>enenum, importuna Lues pernitiosa po<g ref="char:EOLunhyphen"/>tio quae humanum Corpus debilitat</p>
+         </div>
+         <div n="M" type="letter">
+            <pb facs="tcp:54927:14"/>
+            <pb facs="tcp:54927:14"/>
+            <figure>
+               <head>M</head>
+               <figDesc>depiction of an ornate letter 'M'</figDesc>
+               <p>M</p>
+               <p>
+                  <figure>
+                     <figDesc>depiction of a winged angel head composed of calligraphic flourishes</figDesc>
+                  </figure>
+               </p>
+            </figure>
+            <p>A aaa. bbb. ccc. ddd. eee. ffff. ggg. hhh. iii. kkk lll mmmm. nn nn. ooo. ppp. qqq. rrr. ſs ſs st. t tt. v uu. www. xxx. yyy z &amp;</p>
+            <p>A A B B C C D D E E I J G G H J K L M N O P Q R R S T V W X Y Z</p>
+         </div>
+         <div n="N" type="letter">
+            <pb facs="tcp:54927:15"/>
+            <pb facs="tcp:54927:15"/>
+            <p>
+               <figure>
+                  <head>N</head>
+                  <figDesc>depiction of an ornate letter 'N'</figDesc>
+                  <p>N</p>
+               </figure>
+            </p>
+            <q>
+               <l>N<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lan<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing Praiſe nor flowr'd Encomiums prize</l>
+               <l>the moſt deser<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ing are moſt humbly wise</l>
+            </q>
+            <p>NEVER undertake any base or unwarrantable Action. Hate nothing but what is dishonest. Feare nothing but what is <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ordid or ignoble. And love nothing but what is very just and honourable.</p>
+            <q>
+               <l>Now bend your mind fair Writing to attain</l>
+               <l>Your present pains will prove your future gain</l>
+            </q>
+         </div>
+         <div n="O" type="letter">
+            <pb facs="tcp:54927:16"/>
+            <pb facs="tcp:54927:16"/>
+            <figure>
+               <head>O</head>
+               <p>Opportunity is providentially presented to every Man which if not immediatly received vanishes in a moment The onely way to raise our for<g ref="char:EOLhyphen"/>tunes is to <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e d<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> Time</p>
+               <figDesc>depiction of an ornate letter 'O'</figDesc>
+            </figure>
+            <p>Opinions guide our paſsions &amp; affections And all our fan<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ies follow her directions</p>
+            <p>Observe these Rules &amp; measures whereby you may best preserve your Reputation, if that be once loſt you are like a Cancelled Writing of noe use nor vallue</p>
+            <q>
+               <l>Thy Credit wary keep, 'tis quickly gone</l>
+               <l>Being gott by many<g ref="char:punc">▪</g> be<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>s loſt by one</l>
+            </q>
+         </div>
+         <div n="P" type="letter">
+            <pb facs="tcp:54927:17"/>
+            <pb facs="tcp:54927:17"/>
+            <figure>
+               <head>P</head>
+               <figDesc>depiction of an ornate letter 'P'</figDesc>
+               <byline>Elder sculp</byline>
+            </figure>
+            <p>a a b b c c d d d e ee f f f f g g g h h i ij k k ll ll m m n n o o o p p q q r r ſs ſs t tt v u w w x x y y z z</p>
+            <p>A A B B C D D E F G H I J K L M N O P P Q R S T V W W X Y Z</p>
+         </div>
+         <div n="Q" type="letter">
+            <pb facs="tcp:54927:18"/>
+            <pb facs="tcp:54927:18"/>
+            <p>
+               <figure>
+                  <head>Q</head>
+                  <p>Poverty is for the moſt part but a Creature of the Phansie being Imagined and Feared where it really is not. For he is not pooreſt that poſses<g ref="char:EOLhyphen"/>seth leaſt but he that wanteth most.</p>
+                  <figDesc>depiction of an ornate letter 'Q'</figDesc>
+               </figure>
+            </p>
+            <q>
+               <l>Quiet the troubles of thy mind,</l>
+               <l>Diſturb'd by Croſses, doubts, &amp; fears</l>
+               <l>With thoughts of heaven w<hi rend="sup">ch</hi>: thou ſhalt find</l>
+               <l>Will pay for all thy sighs and teares</l>
+               <l>'Tis but a while &amp; suffering saints shal be</l>
+               <l>With glory crown'd to all Eternity.</l>
+            </q>
+         </div>
+         <div n="R" type="letter">
+            <pb facs="tcp:54927:19"/>
+            <pb facs="tcp:54927:19"/>
+            <figure>
+               <head>R</head>
+               <p>R R</p>
+               <figDesc>depiction of an ornate letter 'R'</figDesc>
+               <byline>WElder sculpsit</byline>
+            </figure>
+            <p>Reckon your Age from the birth of your Vertue</p>
+            <p>He that lives viciously may write beaſt but not Man</p>
+            <p>Religion is the stay of the Weake the Maſter of the Ignorant, the Philosophy of the Simple, the Oratory of the Devout, the Remedy of Sinne, the Counsel of the just, and the Comfort of the troubled. Aabcdeffghiklmnopqrſstuwxyz</p>
+         </div>
+         <div n="S" type="letter">
+            <pb facs="tcp:54927:20"/>
+            <pb facs="tcp:54927:20"/>
+            <figure>
+               <head>S</head>
+               <figDesc>depiction of an ornate letter 'S'</figDesc>
+               <p>S S</p>
+            </figure>
+            <p>A a a b b c c d d d e ee f f f g g g h h i j k k k l ll m m n o <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> qq rr ſs ſs t tt v v u w w x x y y z</p>
+            <p>Serve God and keep his mandements for that is the true Wiſdome which will at laſt <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rowne your Endeavoures with Eternall Happineſs</p>
+         </div>
+         <div n="T" type="letter">
+            <pb facs="tcp:54927:21"/>
+            <pb facs="tcp:54927:21"/>
+            <figure>
+               <head>T</head>
+               <figDesc>depiction of an ornate letter 'T'</figDesc>
+               <p>
+                  <figure>
+                     <figDesc>depiction of a man hanging from the crossbar of the 'T' composed of calligraphic flourishes</figDesc>
+                  </figure>
+               </p>
+            </figure>
+            <p>The Rich Man lives hap<g ref="char:EOLhyphen"/>pily ſo long as he uſeth his Riches temperately And the poor man who patienly endur<g ref="char:EOLhyphen"/>eth his want is Rich enough</p>
+            <p>
+               <seg rend="decorInit">A</seg>aa bb cc ddd ee ff gg hh ij kkk l ll m m n n o oo p p q q rrr ſss t tt v u v w w x x y y z</p>
+         </div>
+         <div n="U V" type="letter">
+            <pb facs="tcp:54927:22"/>
+            <pb facs="tcp:54927:22"/>
+            <figure>
+               <head>V</head>
+               <figDesc>depiction of an ornate letter 'V'</figDesc>
+               <p>V V</p>
+               <p>
+                  <figure>
+                     <figDesc>depiction of a stalk of flowers within the letter 'V'</figDesc>
+                  </figure>
+               </p>
+               <byline>Elder sculp</byline>
+            </figure>
+            <p>
+               <seg rend="decorInit">V</seg>ertue is y<hi rend="sup">e</hi> queen of labourers opinion the miſtreſs of fools and contention the overthrow of families</p>
+            <p>Carolus Secundus Dei Gratia Anglice. Scotice Francice et. Hibernice Rex Fidei Defenſor &amp;c</p>
+         </div>
+         <div n="W" type="letter">
+            <pb facs="tcp:54927:23"/>
+            <pb facs="tcp:54927:23"/>
+            <figure>
+               <head>W</head>
+               <p>W</p>
+               <figDesc>depiction of an ornate letter 'W'</figDesc>
+            </figure>
+            <p>abcdefghi klmnopqrl stuvwxyz &amp;.</p>
+            <p>Deo gloria.</p>
+         </div>
+         <div n="X" type="letter">
+            <pb facs="tcp:54927:24"/>
+            <pb facs="tcp:54927:24"/>
+            <figure>
+               <head>X</head>
+               <p>X X X</p>
+               <figDesc>depiction of an ornate letter 'X'</figDesc>
+            </figure>
+            <p>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+         </div>
+         <div n="Y" type="letter">
+            <pb facs="tcp:54927:25"/>
+            <pb facs="tcp:54927:25"/>
+            <figure>
+               <head>Y</head>
+               <p>Y</p>
+               <figDesc>depiction of an ornate letter 'Y'</figDesc>
+            </figure>
+            <p>Aa Bb Cc Dd Eee Ff Gg Hh Ii k l ll m Nn Oo Pppp Qq Rr Ss st ſ ſl Tt Vv u W x y z &amp; &amp;</p>
+            <p>a b c d e e f ff g h i k l ll m n o p q r ſ s st t v w x y z &amp;</p>
+            <p>A B C D E F G H I K L M N O P Q R S T V W X Y Z &amp;</p>
+            <p>Note that in Writeing Chancery hand Itt is vſuall to make many abreviato<g ref="char:cmbAbbrStroke">̄</g>ns in Words and to Write them short as for Example <abbr>ar</abbr> armiger <abbr>bre</abbr> breve dtu<g ref="char:cmbAbbrStroke">̄</g>s dictus <abbr>ext</abbr> extra <abbr>fris</abbr> fratris gris gratis And many more</p>
+         </div>
+         <div n="Z" type="letter">
+            <pb facs="tcp:54927:26"/>
+            <pb facs="tcp:54927:26" rendition="simple:additions"/>
+            <figure>
+               <head>Z</head>
+               <p>Z Z</p>
+               <figDesc>depiction of an ornate letter 'Z'</figDesc>
+            </figure>
+            <p>
+               <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> h. i. ij. k. l. m. n. o. p <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> u. w. x. y. z. &amp;.</p>
+            <p>A <gap reason="illegible" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> G H I K L M <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> O P Q R S T V W X Y Z &amp;</p>
+            <p>Omnibus ad quos preſentes literae noſtrae ꝑvenerint <abbr>ſaltm</abbr> ſciatis qd n<gap reason="illegible" extent="1 chunk">
+                  <desc>…</desc>
+               </gap> ex gratia <abbr>nra</abbr> ac ex certa ſcientia et mero motu dedimus et conceſſimus</p>
+         </div>
+      </body>
+   </text>
+</TEI>
